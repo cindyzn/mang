@@ -1,0 +1,43 @@
+[
+	{
+		"goodsId":"01001",
+		"goodsType":"跟团游",
+		"goodsPrice":"1999起" ,
+		"goodsImg":"img/hotline1.jpg" ,
+		"goodsUrl":"http://m.mangocity.com/views/holiday/index.html#/detail/10572311p2" ,
+		"goodsDesc":"&lt;曼谷+金沙岛+芭提雅6日跟团游&gt;深起港止/当地五星精选酒店/一价全含/无购物压力/正点豪华航空"
+	},
+	{
+		"goodsId":"01002",
+		"goodsType":"自由行",
+		"goodsPrice":"4199起" ,
+		"goodsImg":"img/hotline4.jpg" ,
+		"goodsUrl":"http://m.mangocity.com/views/holiday/index.html#/detail/10548247p2" ,
+		"goodsDesc":"&lt;【特价钜惠】日本大阪+京都+横滨+东京6日跟团游&gt;深起港止/探访日本千年古都京都、镰仓/赏花体验富士芝樱/世界文化遗产京都金阁寺/相扑火锅/温泉酒店宴会料理"
+	},
+	{
+		"goodsId":"01003",
+		"goodsType":"跟团游",
+		"goodsPrice":"4799起" ,
+		"goodsImg":"img/hotline7.jpg" ,
+		"goodsUrl":"http://m.mangocity.com/views/holiday/index.html#/detail/10601533p2" ,
+		"goodsDesc":"&lt;埃及全景10日跟团游&gt;广州往返/五星酒店/开罗+红海+孟菲斯+卢克索/探秘古埃及文明"
+	},
+	{
+		"goodsId":"01004",
+		"goodsType":"半自由行",
+		"goodsPrice":"2980起" ,
+		"goodsImg":"img/hotline10.jpg" ,
+		"goodsUrl":"http://m.mangocity.com/views/holiday/index.html#/detail/10598435p2" ,
+		"goodsDesc":"&lt;巴厘岛5日跟团游&gt;下单立减100元/人！皇家彼得曼之蓝梦巴厘/深起港止+四晚精品四星酒店+五星皇家彼得曼下午茶/精油SPA！"
+	},
+	{
+		"goodsId":"01005",
+		"goodsType":"跟团游",
+		"goodsPrice":"2170起" ,
+		"goodsImg":"img/hotline14.jpg" ,
+		"goodsUrl":"http://m.mangocity.com/views/holiday/index.html#/detail/10562905p2",		
+		"goodsDesc":"&lt;青海湖+鸟岛+金银滩草原+丹噶尔古城+贵德阿什贡+塔尔寺5日游5日跟团游&gt;青海一地深度游/赏贵德梨花/品青海美食"
+	}
+	
+]

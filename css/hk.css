@@ -1,0 +1,145 @@
+
+
+
+.mui-bar{
+	background: #ff6600;
+	height:0.44rem;
+	
+	
+}
+.mui-bar .mui-title{
+	color:white;
+	line-height:44px;
+}
+.mui-bar .icon-v3zhuye{
+	float:right;
+	color:white;
+	font-size:24px;
+	line-height:0.4rem;
+	
+}
+.mui-icon-left-nav {
+    color: white;
+}
+.mui-content{
+	height:auto;
+	margin-top:0;
+	background: white;
+	
+}
+.mui-content .mui-table-view{
+	border:1px  solid lightgray;
+	margin:0.05rem;
+}
+
+.mui-content .mui-table-view .mui-media-body{
+	margin-left:0.2rem;
+	font-family: "微软雅黑";
+}
+.mui-content .mui-table-view .mui-media-body p{
+	color:black;
+	font-size: 0.13rem;
+	line-height:0.3rem;
+	font-weight: normal;
+	margin-right:0.2rem;
+}
+.mui-content .mui-table-view .mui-media-body span{
+	font-size:0.16rem;
+}
+.mui-content .mui-table-view .price{
+	float:right;
+	margin-right:0.2rem;
+}
+.mui-content .mui-table-view .mui-table-view-cell .mui-media-object{
+	height:0.75rem;
+	width:0.75rem;
+	
+}
+.mui-content .mui-table-view .price b{
+	font-weight: bold;
+	color:#ff6600;
+	font-size:0.16rem;
+	padding-right:0.05rem;
+}
+.price{
+	font-size:0.12rem;
+}
+.mui-content .mui-table-view .mui-table-view-cell{
+	
+}
+footer {
+    padding: 10px 10px 10px;
+    background: white;
+}
+
+.f-nav-m,.f-nav-l,.f-nv-b{
+	overflow: hidden;
+}
+.f-nav-m{
+	border-bottom: 1px solid gray;
+}
+.f-nav-m li{
+	width:20%;
+	float:left;
+	
+	
+}
+.f-nav-m li a{
+	width:100%;
+	display:block;
+	padding:10px 0;
+	
+	overflow: hidden;
+}
+.f-nav-m li a img{
+	width:0.22rem;
+	height:0.22rem;
+	vertical-align: middle;
+	float:left;
+}
+.f-nav-m li a span{
+	width:52%;
+	font-size:0.12rem;
+	margin-right:10%;
+	float:left;
+	padding-left:0.05rem;
+	color: black;
+}
+
+.f-nav-l li{
+	
+	float:left;
+}
+.f-nv-b{
+	display: flex;
+    justify-content: space-around;
+    font-size:0.14rem;
+    margin:0.1rem 0;
+  
+}
+.f-nv-b a{
+	color:#999999;
+  
+}
+.f-copyright{
+	text-align:center;
+	margin-top:0.15rem;
+	color:#999999;
+}
+.f-nav-l{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0.1rem;
+}
+.f-nav-l a{
+	display: block;
+    color:#999999;
+    text-align: center;
+    font-size:0.144rem;
+}
+.f-nav-l .iconfont{
+	font-size:0.2rem;
+	color:#999999;
+}
+

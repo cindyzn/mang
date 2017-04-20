@@ -1,0 +1,98 @@
+
+.mui-bar{
+	background: #ff6600;
+	height:0.44rem;
+	
+	
+}
+.mui-bar .mui-title{
+	color:white;
+	line-height:44px;
+}
+.mui-bar .icon-v3zhuye{
+	float:right;
+	color:white;
+	font-size:24px;
+	line-height:0.4rem;
+	
+}
+.mui-icon-left-nav {
+    color: white;
+}
+
+
+
+.mui-content{
+	padding:0.05rem;
+	background: white;
+	height:93%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.mui-content .date-list{
+	overflow: hidden;
+	margin:0.05rem 0;
+	
+	
+}
+.mui-content .date-list li{
+	float:left;
+	background: #efeff4;
+	margin-right:0.03rem;
+	width:13.3%;
+	text-align: center;
+	line-height:0.4rem;
+	margin-top:0.03rem;
+}
+.mui-content .date-list .six{
+	margin-right:0;
+}
+.mui-content .date-list .seven{
+	color:#ff6600;
+	
+}
+.mui-content .date-list .year{
+	width:95.5%;
+	line-height: 0.35rem;
+	margin-right: 0.05rem;
+	
+	
+}
+@media (max-width: 640px){
+	.mui-content .date-list .year {
+	    width:98%;
+		line-height: 0.35rem;
+		margin-right: 0.05rem;
+	}
+}
+@media (width: 320px){
+	.mui-content .date-list .year {
+	    width:99%;
+		line-height: 0.35rem;
+		margin-right: 0.05rem;
+	}
+}
+
+.mui-content .date-list .num{
+	height: 0.45rem;
+	line-height: 0.2rem;
+	font-size:0.14rem;
+	color:darkgray;
+	
+	
+	
+}
+.mui-content .date-list .num span{
+	font-size:0.12rem;
+	color:#ff6600;
+	display: block;
+}
+.mui-content .date-list .num-color{
+	color:black;
+	font-weight: bold;
+	font-size: 0.14rem;
+}
+
+
+
+

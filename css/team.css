@@ -1,0 +1,290 @@
+
+
+
+.mui-bar{
+	background: #ff6600;
+	height:0.44rem;
+	
+	
+}
+.mui-bar .mui-title{
+	color:white;
+	line-height:44px;
+}
+.mui-bar .icon-v3zhuye{
+	float:right;
+	color:white;
+	font-size:24px;
+	line-height:0.4rem;
+	
+}
+.mui-icon-left-nav {
+    color: white;
+}
+.mui-content{
+	height:auto;
+	background: white;
+}
+.l-content{
+	padding: 10px;
+	overflow: hidden;
+}
+.l-search{
+	overflow: hidden;
+}
+.l-search .holiday-city{
+	background: #E9E9E9;
+	float:left;
+	width:30%;
+	line-height: 0.4rem;
+	padding:0 0.05rem;
+	border-radius: 10px;
+	color:black;
+	height:0.4rem;
+
+}
+.l-search .holiday-city a{
+	padding-left:5px;
+	font-size:14px;
+	color:black;
+}
+.l-search .holiday-city .icon-map{
+	font-size:26px;
+	color:#6699cc;
+}
+.l-search .holiday-search{
+	line-height: 0.4rem;
+	width:70%;
+	float:left;
+	background: white;
+	position: relative;
+	
+}
+#search-text{
+	font-size: 0.12rem;
+	padding-left:12%;
+}
+#button{
+	line-height: 0.3rem;
+	float:left;
+	background: #E9E9E9 ;
+	margin-left:10%;
+}
+.l-search .holiday-search .search{
+	
+	display: block;
+	border:1px solid #E9E9E9;
+	background: white;
+	height:0.4rem;
+	line-height: 0.4rem;
+	float:left;
+	text-align: left;
+	padding-left:40px;
+	
+}
+.icon-sousuo{
+	
+	position: absolute;
+	left:10px;
+	top:2px;
+	color:#E9E9E9;
+	float:left
+}
+.module-block{
+	overflow: hidden;
+}
+.module-block li{
+	
+	width:47%;
+	display: block;
+	margin-bottom:10px;
+	color:white;
+	line-height: 0.32rem;
+	text-align: center;
+	
+}
+.module-block li a{
+	
+	color:white;
+	text-align: center;
+	font-size:0.14rem;
+	
+	
+}
+.module-block .inner-trip{
+	
+	background: #ff7750;
+	float:left;
+	
+}
+.module-block .long-trip{
+	
+	background: #ffb844;
+	float:right;
+}
+.module-block .hk-trip{
+	
+	background: #9c69ac;
+	float:left;
+	
+}
+.module-block .abroad-trip{
+	
+	background: #ff7750;
+	float:right;
+}
+
+
+.yellow-btn {
+    line-height: 0.26rem;
+    padding: 0 20px;
+    margin: 0 0px 10px;
+    font-size: 0.13rem;
+    color: #FFF;
+    border: solid 1px #d55212;
+    border-radius: 4px;
+    display: inline-block;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fa742c), to(#ec5e12))
+};
+.product-list{
+	overflow: hidden;
+	
+}
+.product-list li:nth-child(odd){
+	width:47%;
+	float:left;
+	
+}
+.product-list li:nth-child(even){
+	width:47%;
+	float:right;
+	
+}
+
+
+
+.product-list li a img{
+	width:100%;
+}
+.product-list .imgbox{
+	position: relative;
+	
+}
+.product-list .imgbox .text-title{
+	position: absolute;
+	bottom:5px;
+	left:0;
+	padding:5px 5px;
+	color:white;
+	background: rgba(79,79,79,0.4);
+	width:100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size:0.12rem;
+	
+}
+.text-info{
+	width:100%;
+	line-height:0.3rem;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size:0.16rem;
+	color:black;
+	text-overflow: ellipsis;
+}
+.product-list li .price{
+    padding:0.05rem 0;
+}
+.product-list li .price strong {
+    font-size: 0.16rem;
+}
+b, strong {
+    font-weight: bold;
+}
+
+
+
+.product-list li .price {
+    color: #f60;
+    font-size: 0.12rem;
+   
+}
+
+
+footer {
+    padding: 10px 10px 10px;
+    background: white;
+}
+
+.f-nav-m,.f-nav-l,.f-nv-b{
+	overflow: hidden;
+}
+.f-nav-m{
+	border-bottom: 1px solid gray;
+}
+.f-nav-m li{
+	width:20%;
+	float:left;
+	
+	
+}
+.f-nav-m li a{
+	width:100%;
+	display:block;
+	padding:10px 0;
+	
+	overflow: hidden;
+}
+.f-nav-m li a img{
+	width:0.22rem;
+	height:0.22rem;
+	vertical-align: middle;
+	float:left;
+}
+.f-nav-m li a span{
+	width:52%;
+	font-size:0.12rem;
+	margin-right:10%;
+	float:left;
+	padding-left:0.05rem;
+	color: black;
+}
+
+.f-nav-l li{
+	
+	float:left;
+}
+.f-nv-b{
+	display: flex;
+    justify-content: space-around;
+    font-size:0.14rem;
+    margin:0.1rem 0;
+  
+}
+.f-nv-b a{
+	color:#999999;
+  
+}
+.f-copyright{
+	text-align:center;
+	margin-top:0.15rem;
+	color:#999999;
+}
+.f-nav-l{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0.1rem;
+}
+.f-nav-l a{
+	display: block;
+    color:#999999;
+    text-align: center;
+    font-size:0.144rem;
+}
+.f-nav-l .iconfont{
+	font-size:0.2rem;
+	color:#999999;
+}
+

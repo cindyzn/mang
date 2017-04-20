@@ -1,0 +1,530 @@
+{
+	"@platforms": ["android", "iPhone", "iPad"],
+	"id": "H55040C0A",/*应用的标识，创建应用时自动生成，勿手动修改*/
+	"name": "茫茫旅途",/*应用名称，程序桌面图标名称*/
+	"version": {
+		"name": "1.0.0",/*应用版本名称*/
+		"code": "83"
+	},
+	"description": "",/*应用描述信息*/
+	"icons": {
+		"72": "icon.png"
+	},
+	"launch_path": "home.html",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
+	"developer": {
+		"name": "",/*开发者名称*/
+		"email": "",/*开发者邮箱地址*/
+		"url": "http://www.dcloud.io"
+	},
+	"permissions": {
+		"Accelerometer": {
+            "description": "访问加速度感应器"
+        },
+        "Audio": {
+            "description": "访问麦克风"
+        },
+        "Cache": {
+            "description": "管理应用缓存"
+        },
+        "Camera": {
+            "description": "访问摄像头"
+        },
+        "Console": {
+            "description": "跟踪调试输出日志"
+        },
+        "Contacts": {
+            "description": "访问系统联系人信息"
+        },
+        "Device": {
+            "description": "访问设备信息"
+        },
+        "Downloader": {
+            "description": "文件下载管理"
+        },
+        "Events": {
+            "description": "应用扩展事件"
+        },
+        "File": {
+            "description": "访问本地文件系统"
+        },
+        "Gallery": {
+            "description": "访问系统相册"
+        },
+        "Geolocation": {
+            "description": "访问位置信息"
+        },
+         "Invocation": {
+            "description": "使用Native.js能力"
+        },
+        "Messaging": {
+            "description": "访问通讯能力"
+        },
+        "Orientation": {
+            "description": "访问方向感应器"
+        },
+        "Proximity": {
+            "description": "访问距离感应器"
+        },
+        "Storage": {
+            "description": "管理应用本地数据"
+        },
+        
+        "Uploader": {
+            "description": "管理文件上传任务"
+        },
+        "Runtime": {
+            "description": "访问运行期环境"
+        },
+        "XMLHttpRequest": {
+            "description": "跨域网络访问"
+        },
+        "Zip": {
+            "description": "文件压缩与解压缩"
+        },
+        "Barcode": {
+            "description": "管理二维码扫描插件"
+        },
+        "Maps": {
+            "description": "管理地图插件"
+        },
+        "Speech": {
+            "description": "管理语音识别插件"
+        },
+        "Webview":{
+        	"description": "窗口管理"
+        },
+        "NativeUI":{
+        	"description": "原生UI控件"
+        },
+        "Navigator":{
+        	"description": "浏览器信息"
+        },
+        "NativeObj":{
+        	"description": "原生对象"
+        }
+	},
+	"plus": {
+		"splashscreen": {
+			"autoclose": true,/*是否自动关闭程序启动界面，true表示应用加载应用入口页面后自动关闭；false则需调plus.navigator.closeSplashscreen()关闭*/
+			"waiting": true
+		},
+		"runmode": "liberate",/*应用的首次启动运行模式，可取liberate或normal，liberate模式在第一次启动时将解压应用资源（Android平台File API才可正常访问_www目录）*/
+		"signature": "Sk9JTiBVUyBtYWlsdG86aHIyMDEzQGRjbG91ZC5pbw==",/*可选，保留给应用签名，暂不使用*/
+		"distribute": {
+			"apple": {
+				"appid": "",/*iOS应用标识，苹果开发网站申请的appid，如io.dcloud.HelloH5*/
+				"mobileprovision": "",/*iOS应用打包配置文件*/
+				"password": "",/*iOS应用打包个人证书导入密码*/
+				"p12": "",/*iOS应用打包个人证书，打包配置文件关联的个人证书*/
+				"devices": "universal",/*iOS应用支持的设备类型，可取值iphone/ipad/universal*/
+				"frameworks": []
+			},
+			"google": {
+				"packagename": "",/*Android应用包名，如io.dcloud.HelloH5*/
+				"keystore": "",/*Android应用打包使用的密钥库文件*/
+				"password": "",/*Android应用打包使用密钥库中证书的密码*/
+				"aliasname": "",/*Android应用打包使用密钥库中证书的别名*/
+				"permissions": ["<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>","<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>","<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>","<uses-permission android:name=\"android.permission.VIBRATE\"/>","<uses-permission android:name=\"android.permission.READ_LOGS\"/>","<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>","<uses-feature android:name=\"android.hardware.camera.autofocus\"/>","<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>","<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>","<uses-permission android:name=\"com.android.launcher.permission.UNINSTALL_SHORTCUT\"/>","<uses-permission android:name=\"android.permission.CAMERA\"/>","<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>","<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>","<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>","<uses-permission android:name=\"com.android.launcher.permission.INSTALL_SHORTCUT\"/>","<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>","<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>","<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>","<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>","<uses-permission android:name=\"android.permission.CALL_PHONE\"/>","<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>","<uses-feature android:name=\"android.hardware.camera\"/>","<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>","<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"]
+			},
+			"orientation": ["portrait-primary", "portrait-secondary"],/*应用支持的方向，portrait-primary：竖屏正方向；portrait-secondary：竖屏反方向；landscape-primary：横屏正方向；landscape-secondary：横屏反方向*/
+			"icons": {
+				"ios": {
+					"prerendered": true, /*应用图标是否已经高亮处理，在iOS6及以下设备上有效*/
+					"auto": "", /*应用图标，分辨率：512x512，用于自动生成各种尺寸程序图标*/
+					"iphone": {
+						"normal": "",/*iPhone普通屏幕程序图标，分辨率：57x57*/
+						"retina": "",/*iPhone高分屏程序图标，分辨率：114x114*/
+						"retina7": "",/*iPhone iOS7高分屏程序图标，分辨率：120x120*/
+						"spotlight-normal": "", /*iPhone Spotlight搜索程序图标，分辨率：29x29*/
+						"spotlight-retina": "", /*iPhone高分屏Spotlight搜索程序图标，分辨率：58x58*/
+						"spotlight-retina7": "",/*iPhone iOS7高分屏Spotlight搜索程序图标，分辨率：80x80*/
+						"settings-normal": "", /*iPhone设置页面程序图标，分辨率：29x29*/
+						"settings-retina": ""
+					},
+					"ipad": {
+						"normal": "", /*iPad普通屏幕程序图标，分辨率：72x72*/
+						"retina": "", /*iPad高分屏程序图标，分辨率：144x144*/
+						"normal7": "", /*iPad iOS7程序图标，分辨率：76x76*/
+						"retina7": "", /*iPad iOS7高分屏程序图标，分辨率：152x152*/
+						"spotlight-normal": "", /*iPad Spotlight搜索程序图标，分辨率：50x50*/
+						"spotlight-retina": "", /*iPad高分屏Spotlight搜索程序图标，分辨率：100x100*/
+						"spotlight-normal7": "",/*iPad iOS7 Spotlight搜索程序图标，分辨率：40x40*/
+						"spotlight-retina7": "",/*iPad iOS7高分屏Spotlight搜索程序图标，分辨率：80x80*/
+						"settings-normal": "",/*iPad设置页面程序图标，分辨率：29x29*/
+						"settings-retina": ""
+					}
+				},
+				"android": {
+					"mdpi": "", /*普通屏程序图标，分辨率：48x48*/
+					"ldpi": "", /*大屏程序图标，分辨率：48x48*/
+					"hdpi": "", /*高分屏程序图标，分辨率：72x72*/
+					"xhdpi": "",/*720P高分屏程序图标，分辨率：96x96*/
+					"xxhdpi": ""
+				}
+			},
+			"splashscreen": {
+				"ios": {
+					"iphone": {
+						"default": "", /*iPhone3启动图片选，分辨率：320x480*/
+						"retina35": "",/*3.5英寸设备(iPhone4)启动图片，分辨率：640x960*/
+						"retina40": ""
+					},
+					"ipad": {
+						"portrait": "", /*iPad竖屏启动图片，分辨率：768x1004*/
+						"portrait-retina": "",/*iPad高分屏竖屏图片，分辨率：1536x2008*/
+						"landscape": "", /*iPad横屏启动图片，分辨率：1024x748*/
+						"landscape-retina": "", /*iPad高分屏横屏启动图片，分辨率：2048x1496*/
+						"portrait7": "", /*iPad iOS7竖屏启动图片，分辨率：768x1024*/
+						"portrait-retina7": "",/*iPad iOS7高分屏竖屏图片，分辨率：1536x2048*/
+						"landscape7": "", /*iPad iOS7横屏启动图片，分辨率：1024x768*/
+						"landscape-retina7": ""
+					}
+				},
+				"android": {
+					"mdpi": "", /*普通屏启动图片，分辨率：240x282*/
+					"ldpi": "", /*大屏启动图片，分辨率：320x442*/
+					"hdpi": "", /*高分屏启动图片，分辨率：480x762*/
+					"xhdpi": "", /*720P高分屏启动图片，分辨率：720x1242*/
+					"xxhdpi": ""
+				}
+			}
+		}
+	},
+	"dependencies": {
+		"pages": {
+			"home.html": {
+				"resources": [
+					"img/msite_vacation.jpg",
+					"img/msite_ship.jpg",
+					"img/banner4.jpg",
+					"img/msite_0003.jpg",
+					"img/banner1.jpg",
+					"css/public.css",
+					"img/msite_ticket.jpg",
+					"img/msite_hotel.jpg",
+					"img/banner3.jpg",
+					"css/home.css",
+					"img/msite_0001.jpg",
+					"font/iconfont.css",
+					"img/banner2.jpg",
+					"font/iconfont.woff",
+					"js/mui.min.js",
+					"js/list.js",
+					"css/mui.min.css",
+					"json/list.json",
+					"js/ajax.js",
+					"ico.ico",
+					"img/msite_0002.jpg",
+					"img/msite_flight.jpg",
+					"img/msite_0004.jpg",
+					"img/banner0.jpg",
+					"team.html",
+					"img/hotline1.jpg",
+					"detail.html",
+					"next.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"team.html": {
+				"resources": [
+					"img/team2.jpg",
+					"fonts/mui.ttf",
+					"js/team.js",
+					"img/team3.jpg",
+					"json/team.json",
+					"img/team4.jpg",
+					"img/ico3.png",
+					"img/ico4.png",
+					"img/ico5.png",
+					"ico.ico",
+					"img/team1.jpg",
+					"css/team.css",
+					"img/ico2.png",
+					"img/ico1.png",
+					"home.html",
+					"css/public.css",
+					"font/iconfont.css",
+					"font/iconfont.woff",
+					"js/mui.min.js",
+					"css/mui.min.css",
+					"js/ajax.js",
+					"user.html",
+					"login.html",
+					"register.html",
+					"xian.html",
+					"city.html",
+					"js/jquery-1.8.3.min.js",
+					"hk.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"detail.html": {
+				"resources": [
+					"img/detail1.jpg",
+					"css/detali.css",
+					"ico.ico",
+					"img/detail2.jpg",
+					"img/detail3.jpg",
+					"fonts/mui.ttf",
+					"css/public.css",
+					"img/ico3.png",
+					"img/ico5.png",
+					"font/iconfont.css",
+					"img/ico4.png",
+					"font/iconfont.woff",
+					"js/mui.min.js",
+					"css/mui.min.css",
+					"img/ico2.png",
+					"img/ico1.png",
+					"home.html",
+					"pricedetail.html",
+					"tips.html",
+					"route.html",
+					"date.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pricedetail.html": {
+				"resources": [
+					"css/pricedetail.css",
+					"ico.ico",
+					"detail.html",
+					"date.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"tips.html": {
+				"resources": [
+					"ico.ico",
+					"detail.html",
+					"css/pricedetail.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"route.html": {
+				"resources": [
+					"img/route4.jpg",
+					"img/route2.jpg",
+					"img/route8.jpg",
+					"css/route.css",
+					"img/route1.jpg",
+					"img/route5.jpg",
+					"img/route6.jpg",
+					"ico.ico",
+					"img/route7.jpg",
+					"img/route3.jpg",
+					"fonts/mui.ttf",
+					"css/public.css",
+					"font/iconfont.css",
+					"font/iconfont.woff",
+					"js/mui.min.js",
+					"css/mui.min.css",
+					"detail.html",
+					"home.html",
+					"date.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"date.html": {
+				"resources": [
+					"ico.ico",
+					"css/date.css",
+					"detail.html",
+					"home.html",
+					"route.html",
+					"pricedetail.html",
+					"register.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"next.html": {
+				"resources": [
+					"img/next2.jpg",
+					"img/pl3.jpg",
+					"css/next.css",
+					"img/next3.jpg",
+					"img/next5.jpg",
+					"css/public.css",
+					"img/pl1.jpg",
+					"img/pl4.jpg",
+					"font/iconfont.css",
+					"img/map.bmp",
+					"img/next6.jpg",
+					"font/iconfont.woff",
+					"js/mui.min.js",
+					"img/1.jpg",
+					"css/mui.min.css",
+					"ico.ico",
+					"img/pl2.jpg",
+					"img/next4.jpg",
+					"home.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"user.html": {
+				"resources": [
+					"img/iconfont-jiantou.png",
+					"img/iconfont-dingdan .png",
+					"css/user.css",
+					"img/iconfont-zhanneixin.png",
+					"img/iconfont-shouye.png",
+					"img/user_logo.jpg",
+					"img/iconfont-qiandaotubiao.png",
+					"css/public1.css",
+					"js/jquery-1.8.3.min.js",
+					"layer/skin/layer.css",
+					"img/iconfont-jiaofei.png",
+					"img/iconfont-zhanghuanquan.png",
+					"img/iconfont-hui.png",
+					"img/user_bg.jpg",
+					"img/iconfont-fanhui.png",
+					"layer/layer.js",
+					"img/iconfont-wiappquxianguanli.png",
+					"img/iconfont-tuichu.png",
+					"home.html",
+					"layer/skin/default/icon.png",
+					"ico.ico"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"login.html": {
+				"resources": [
+					"img/u_s1.png",
+					"img/u_close.png",
+					"js/jquery-1.8.3.min.js",
+					"css/login.css",
+					"register.html",
+					"img/login_q.png",
+					"ico.ico"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"register.html": {
+				"resources": [
+					"img/u_s1.png",
+					"img/u_close.png",
+					"font/iconfont.css",
+					"js/jquery-1.8.3.min.js",
+					"font/iconfont.woff",
+					"js/mui.min.js",
+					"css/login.css",
+					"fonts/mui.ttf",
+					"css/mui.min.css",
+					"ico.ico",
+					"css/public.css",
+					"img/code.jpg",
+					"team.html",
+					"register_ok.html",
+					"home.html",
+					"img/u_s2.png",
+					"login.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"register_ok.html": {
+				"resources": [
+					"register.html",
+					"img/iconfont-iconxianluyudingchenggong.png",
+					"css/frozen.css",
+					"ico.ico",
+					"img/cxfsjhyj.png",
+					"css/login.css",
+					"fonts/mui.ttf",
+					"css/public.css",
+					"font/iconfont.css",
+					"js/jquery-1.8.3.min.js",
+					"font/iconfont.woff",
+					"js/mui.min.js",
+					"css/mui.min.css",
+					"user.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"xian.html": {
+				"resources": [
+					"ico.ico",
+					"team.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"city.html": {
+				"resources": [
+					"ico.ico",
+					"fonts/mui.ttf",
+					"css/public.css",
+					"js/team.js",
+					"img/ico3.png",
+					"font/iconfont.css",
+					"img/ico4.png",
+					"img/ico5.png",
+					"font/iconfont.woff",
+					"js/mui.min.js",
+					"css/mui.min.css",
+					"js/ajax.js",
+					"css/team.css",
+					"img/ico2.png",
+					"img/ico1.png",
+					"js/city.js",
+					"json/team.json",
+					"home.html",
+					"team.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"hk.html": {
+				"resources": [
+					"js/type.js",
+					"ico.ico",
+					"team.html",
+					"css/hk.css"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"font/demo_symbol.html",
+				"font/demo_fontclass.html",
+				"img/list8.jpg",
+				"img/list3.jpg",
+				"js/common.js",
+				"img/hotline10.jpg",
+				"font/demo.css",
+				"js/mui.js",
+				"css/mui.css",
+				"img/hotline14.jpg",
+				"font/demo_unicode.html",
+				"img/list1.jpg",
+				"img/next1.jpg",
+				"img/hotline7.jpg",
+				"font/iconfont.ttf",
+				"img/list7.jpg",
+				"img/list2.jpg",
+				"font/iconfont.eot",
+				"img/next7.jpg",
+				"font/iconfont.svg",
+				"font/iconfont.js",
+				"img/hotline4.jpg",
+				"img/list4.jpg",
+				"img/list6.jpg",
+				"img/list5.jpg",
+				"img/hotline12.jpg"
+			]
+		}
+	}
+}

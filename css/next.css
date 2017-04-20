@@ -1,0 +1,95 @@
+p{
+	color:black;
+}
+header img{
+	width:100%;
+	display: block;
+}
+header div{
+	 display: flex;
+	    justify-content: space-around;
+	    align-items: center;
+	    padding:0.1rem 0.2rem;
+	    box-sizing: border-box;
+	    background: white;
+	    
+}
+header div a{
+	display: block;
+	color:black;
+}
+header div a .iconfont{
+	color:cornflowerblue;
+	font-size:0.3rem;
+	padding:0.1rem 0;
+	display: block;
+	text-align: center;
+}
+header div a span{
+	display: block;
+	   text-align: center;
+	   line-height: 0.2rem;
+	   color: lightgray;
+	   text-align: center;
+	   font-size:0.14rem;
+	   color:black;
+}
+.next{
+	margin:0.1rem 0;
+	padding-left: rem;
+	background: white;
+}
+.next p{
+	
+	padding:0;
+	line-height:0.3rem;
+	font-size:0.16rem;
+	
+}
+.next p .icon-shuxian{
+	color:dodgerblue;
+	font-size:0.18rem;
+	
+	
+}
+.next a{
+	display: block;
+	overflow: hidden;
+	padding:0.1rem;
+	padding-top:0;
+	
+	
+}
+.next a img{
+	width:100%;
+	display: block;
+	border-radius: 0.05rem;
+}
+.mui-slider-indicator{
+	bottom:0.2rem;
+}
+.next-title{
+	position: absolute;
+	top:0;
+	color:white;
+	left:5%;
+}
+
+footer{
+	padding-bottom:0.1rem;
+	background: white;
+}
+footer img{
+	width:100%;
+	
+}
+footer span{
+	text-align: center;
+	font-size:0.12rem;
+	margin-left:30%;
+	color:#999999;
+}
+
+
+
+

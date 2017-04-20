@@ -1,0 +1,109 @@
+
+.mui-bar{
+	background: #ff6600;
+	height:0.44rem;
+	
+	
+}
+.mui-bar .mui-title{
+	color:white;
+	line-height:44px;
+}
+.mui-bar .icon-v3zhuye{
+	float:right;
+	color:white;
+	font-size:24px;
+	line-height:0.4rem;
+	
+}
+.mui-icon-left-nav {
+    color: white;
+}
+
+
+
+.mui-content{
+	padding:0.05rem;
+	background: #efeff4;
+	height:86%;
+	overflow-y: auto;
+}
+.mui-content .price-include,.mui-content .price-disclude{
+	overflow: hidden;
+	border:1px solid #999999;
+	background: white;
+	padding:0.1rem;
+	padding-bottom: 0.1rem;
+}
+.mui-content .price-include p,.mui-content .price-disclude p{
+	margin:0.2rem 0;
+	color: black;
+	font-weight: bold;
+	font-size:0.16rem;
+}
+
+.mui-content .price-include li,.mui-content .price-disclude li{
+	line-height: 0.3rem;
+	font-size:0.15rem;
+}
+
+.mui-content .price-disclude{
+	border-top:none;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height:auto
+    background: white;
+    
+    margin:0.05rem;
+   
+   box-sizing: border-box;
+   overflow: hidden;
+  
+   
+}
+footer .free{
+	float:left;
+	background: #f60;
+	color: white;
+	width:50%;
+	
+	line-height:0.4rem;
+	text-align: center;
+	
+}
+
+footer .shop{
+	float:right;
+	background: rgba(0,0,0,0.9);
+	color: white;
+	width:50%;
+	line-height:0.395rem;
+	text-align: center;
+	
+}
+footer .shop i{
+	padding-right: 0.1rem;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,340 @@
+{
+  "home.html": {
+    "resources": [
+      "img/msite_vacation.jpg",
+      "img/msite_ship.jpg",
+      "img/banner4.jpg",
+      "img/msite_0003.jpg",
+      "img/banner1.jpg",
+      "css/public.css",
+      "img/msite_ticket.jpg",
+      "img/msite_hotel.jpg",
+      "img/banner3.jpg",
+      "css/home.css",
+      "img/msite_0001.jpg",
+      "font/iconfont.css",
+      "img/banner2.jpg",
+      "font/iconfont.woff",
+      "js/mui.min.js",
+      "js/list.js",
+      "css/mui.min.css",
+      "json/list.json",
+      "js/ajax.js",
+      "ico.ico",
+      "img/msite_0002.jpg",
+      "img/msite_flight.jpg",
+      "img/msite_0004.jpg",
+      "img/banner0.jpg",
+      "team.html",
+      "img/hotline1.jpg",
+      "detail.html",
+      "next.html"
+    ],
+    "refer": [
+      "team.html",
+      "detail.html",
+      "next.html"
+    ]
+  },
+  "team.html": {
+    "resources": [
+      "img/team2.jpg",
+      "fonts/mui.ttf",
+      "js/team.js",
+      "img/team3.jpg",
+      "json/team.json",
+      "img/team4.jpg",
+      "img/ico3.png",
+      "img/ico4.png",
+      "img/ico5.png",
+      "ico.ico",
+      "img/team1.jpg",
+      "css/team.css",
+      "img/ico2.png",
+      "img/ico1.png",
+      "home.html",
+      "css/public.css",
+      "font/iconfont.css",
+      "font/iconfont.woff",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "user.html",
+      "login.html",
+      "register.html",
+      "xian.html",
+      "city.html",
+      "js/jquery-1.8.3.min.js",
+      "hk.html"
+    ],
+    "refer": [
+      "home.html",
+      "user.html",
+      "login.html",
+      "register.html",
+      "xian.html",
+      "city.html",
+      "hk.html"
+    ]
+  },
+  "detail.html": {
+    "resources": [
+      "img/detail1.jpg",
+      "css/detali.css",
+      "ico.ico",
+      "img/detail2.jpg",
+      "img/detail3.jpg",
+      "fonts/mui.ttf",
+      "css/public.css",
+      "img/ico3.png",
+      "img/ico5.png",
+      "font/iconfont.css",
+      "img/ico4.png",
+      "font/iconfont.woff",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "img/ico2.png",
+      "img/ico1.png",
+      "home.html",
+      "pricedetail.html",
+      "tips.html",
+      "route.html",
+      "date.html"
+    ],
+    "refer": [
+      "home.html",
+      "pricedetail.html",
+      "tips.html",
+      "route.html",
+      "date.html"
+    ]
+  },
+  "pricedetail.html": {
+    "resources": [
+      "css/pricedetail.css",
+      "ico.ico",
+      "detail.html",
+      "date.html"
+    ],
+    "refer": [
+      "detail.html",
+      "date.html"
+    ]
+  },
+  "tips.html": {
+    "resources": [
+      "ico.ico",
+      "detail.html",
+      "css/pricedetail.css"
+    ],
+    "refer": [
+      "detail.html"
+    ]
+  },
+  "route.html": {
+    "resources": [
+      "img/route4.jpg",
+      "img/route2.jpg",
+      "img/route8.jpg",
+      "css/route.css",
+      "img/route1.jpg",
+      "img/route5.jpg",
+      "img/route6.jpg",
+      "ico.ico",
+      "img/route7.jpg",
+      "img/route3.jpg",
+      "fonts/mui.ttf",
+      "css/public.css",
+      "font/iconfont.css",
+      "font/iconfont.woff",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "detail.html",
+      "home.html",
+      "date.html"
+    ],
+    "refer": [
+      "detail.html",
+      "home.html",
+      "date.html"
+    ]
+  },
+  "date.html": {
+    "resources": [
+      "ico.ico",
+      "css/date.css",
+      "detail.html",
+      "home.html",
+      "route.html",
+      "pricedetail.html",
+      "register.html"
+    ],
+    "refer": [
+      "detail.html",
+      "home.html",
+      "route.html",
+      "pricedetail.html",
+      "register.html"
+    ]
+  },
+  "next.html": {
+    "resources": [
+      "img/next2.jpg",
+      "img/pl3.jpg",
+      "css/next.css",
+      "img/next3.jpg",
+      "img/next5.jpg",
+      "css/public.css",
+      "img/pl1.jpg",
+      "img/pl4.jpg",
+      "font/iconfont.css",
+      "img/map.bmp",
+      "img/next6.jpg",
+      "font/iconfont.woff",
+      "js/mui.min.js",
+      "img/1.jpg",
+      "css/mui.min.css",
+      "ico.ico",
+      "img/pl2.jpg",
+      "img/next4.jpg",
+      "home.html"
+    ],
+    "refer": [
+      "home.html"
+    ]
+  },
+  "user.html": {
+    "resources": [
+      "img/iconfont-jiantou.png",
+      "img/iconfont-dingdan .png",
+      "css/user.css",
+      "img/iconfont-zhanneixin.png",
+      "img/iconfont-shouye.png",
+      "img/user_logo.jpg",
+      "img/iconfont-qiandaotubiao.png",
+      "css/public1.css",
+      "js/jquery-1.8.3.min.js",
+      "layer/skin/layer.css",
+      "img/iconfont-jiaofei.png",
+      "img/iconfont-zhanghuanquan.png",
+      "img/iconfont-hui.png",
+      "img/user_bg.jpg",
+      "img/iconfont-fanhui.png",
+      "layer/layer.js",
+      "img/iconfont-wiappquxianguanli.png",
+      "img/iconfont-tuichu.png",
+      "home.html",
+      "layer/skin/default/icon.png",
+      "ico.ico"
+    ],
+    "refer": [
+      "home.html"
+    ]
+  },
+  "login.html": {
+    "resources": [
+      "img/u_s1.png",
+      "img/u_close.png",
+      "js/jquery-1.8.3.min.js",
+      "css/login.css",
+      "register.html",
+      "img/login_q.png",
+      "ico.ico"
+    ],
+    "refer": []
+  },
+  "register.html": {
+    "resources": [
+      "img/u_s1.png",
+      "img/u_close.png",
+      "font/iconfont.css",
+      "js/jquery-1.8.3.min.js",
+      "font/iconfont.woff",
+      "js/mui.min.js",
+      "css/login.css",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "ico.ico",
+      "css/public.css",
+      "img/code.jpg",
+      "team.html",
+      "register_ok.html",
+      "home.html",
+      "img/u_s2.png",
+      "login.html"
+    ],
+    "refer": [
+      "team.html",
+      "register_ok.html",
+      "home.html"
+    ]
+  },
+  "register_ok.html": {
+    "resources": [
+      "register.html",
+      "img/iconfont-iconxianluyudingchenggong.png",
+      "css/frozen.css",
+      "ico.ico",
+      "img/cxfsjhyj.png",
+      "css/login.css",
+      "fonts/mui.ttf",
+      "css/public.css",
+      "font/iconfont.css",
+      "js/jquery-1.8.3.min.js",
+      "font/iconfont.woff",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "user.html"
+    ],
+    "refer": [
+      "register.html"
+    ]
+  },
+  "xian.html": {
+    "resources": [
+      "ico.ico",
+      "team.html"
+    ],
+    "refer": [
+      "team.html"
+    ]
+  },
+  "city.html": {
+    "resources": [
+      "ico.ico",
+      "fonts/mui.ttf",
+      "css/public.css",
+      "js/team.js",
+      "img/ico3.png",
+      "font/iconfont.css",
+      "img/ico4.png",
+      "img/ico5.png",
+      "font/iconfont.woff",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "css/team.css",
+      "img/ico2.png",
+      "img/ico1.png",
+      "js/city.js",
+      "json/team.json",
+      "home.html",
+      "team.html"
+    ],
+    "refer": [
+      "home.html",
+      "team.html"
+    ]
+  },
+  "hk.html": {
+    "resources": [
+      "js/type.js",
+      "ico.ico",
+      "team.html",
+      "css/hk.css"
+    ],
+    "refer": [
+      "team.html"
+    ]
+  }
+}
